@@ -224,15 +224,6 @@ a:focus-visible {
   letter-spacing: -0.055em;
 }
 
-.location {
-  margin: 21px 0 0;
-  color: var(--accent);
-  font-family: var(--display);
-  font-size: clamp(1.05rem, 1.6vw, 1.5rem);
-  font-weight: 400;
-  letter-spacing: 0.34em;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -438,6 +429,27 @@ a:focus-visible {
   margin: 0;
 }
 
+.footer-identity {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.footer-identity > span,
+.footer-location {
+  color: var(--muted);
+}
+
+.footer-identity > span {
+  opacity: 0.48;
+}
+
+.footer-location {
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  opacity: 0.68;
+}
+
 .site-footer nav {
   display: flex;
   align-items: center;
@@ -565,12 +577,6 @@ a:focus-visible {
     font-size: clamp(3.15rem, 15vw, 4.25rem);
   }
 
-  .location {
-    margin-top: 16px;
-    font-size: 0.92rem;
-    letter-spacing: 0.25em;
-  }
-
   .intro {
     margin: 26px 0 34px;
     font-size: 0.98rem;
@@ -664,10 +670,6 @@ a:focus-visible {
 
   .hero-heading h1 {
     font-size: 3.15rem;
-  }
-
-  .location {
-    letter-spacing: 0.19em;
   }
 
   .contact-item {
