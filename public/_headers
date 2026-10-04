@@ -4,3 +4,6 @@
   Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
+
+/datenschutz/*
+  X-Robots-Tag: noindex, follow
