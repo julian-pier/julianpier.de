@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Julian Pier aus Coesfeld – Kontakt, Projekte und Zugang zu LIVA."
+    >
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#111214">
+    <title>Julian Pier · Coesfeld</title>
+    <link rel="canonical" href="https://julianpier.de/">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/site.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="technical-grid" aria-hidden="true"></div>
+      <svg
+        class="technical-lines"
+        viewBox="0 0 1440 900"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <defs>
+          <radialGradient id="ambient-light" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#f8f7f2" stop-opacity="0.58" />
+            <stop offset="0.34" stop-color="#e5e7e7" stop-opacity="0.22" />
+            <stop offset="1" stop-color="#d7dcdf" stop-opacity="0" />
+          </radialGradient>
+        </defs>
+        <g class="construction-lines">
+          <path
+            id="light-route-top"
+            data-motion-route="primary"
+            d="M70 105h190c59 0 75 75 142 75h500"
+          />
+          <path
+            id="light-route-left"
+            data-motion-route="primary"
+            d="M70 242h285"
+          />
+          <path d="M75 0v900" />
+          <path
+            id="light-route-center"
+            data-motion-route="primary"
+            d="M355 70v760"
+          />
+          <path
+            id="light-route-right"
+            data-motion-route="secondary"
+            d="M1180 70v760"
+          />
+          <path d="M1285 0v900" />
+          <path d="M0 680h214" />
+          <path
+            id="light-route-lower"
+            data-motion-route="secondary"
+            d="M930 680h440"
+          />
+          <path
+            id="light-route-bottom"
+            data-motion-route="secondary"
+            d="M820 782h290c59 0 67-65 126-65h134"
+          />
+          <circle cx="-5" cy="680" r="185" />
+          <circle cx="1390" cy="310" r="145" />
+        </g>
+        <g class="cross-marks">
+          <path d="M234 284v28M220 298h28" />
+          <path d="M1302 635v28M1288 649h28" />
+          <path d="M225 813v28M211 827h28" />
+        </g>
+        <g class="dot-field">
+          <circle cx="1124" cy="124" r="1.15" />
+          <circle cx="1146" cy="124" r="1.15" />
+          <circle cx="1168" cy="124" r="1.15" />
+          <circle cx="1190" cy="124" r="1.15" />
+          <circle cx="1212" cy="124" r="1.15" />
+          <circle cx="1124" cy="146" r="1.15" />
+          <circle cx="1146" cy="146" r="1.15" />
+          <circle cx="1168" cy="146" r="1.15" />
+          <circle cx="1190" cy="146" r="1.15" />
+          <circle cx="1212" cy="146" r="1.15" />
+          <circle cx="1124" cy="168" r="1.15" />
+          <circle cx="1146" cy="168" r="1.15" />
+          <circle cx="1168" cy="168" r="1.15" />
+          <circle cx="1190" cy="168" r="1.15" />
+          <circle cx="1212" cy="168" r="1.15" />
+          <circle cx="96" cy="745" r="1.15" />
+          <circle cx="118" cy="745" r="1.15" />
+          <circle cx="140" cy="745" r="1.15" />
+          <circle cx="162" cy="745" r="1.15" />
+          <circle cx="96" cy="767" r="1.15" />
+          <circle cx="118" cy="767" r="1.15" />
+          <circle cx="140" cy="767" r="1.15" />
+          <circle cx="162" cy="767" r="1.15" />
+        </g>
+        <g class="light-points">
+          <g
+            class="moving-light"
+            opacity="0"
+            data-route-pool="primary"
+            data-start-route="light-route-top"
+            data-start-progress="0.08"
+            data-speed-min="48"
+            data-speed-max="62"
+            data-pause-min="350"
+            data-pause-max="1100"
+          >
+            <circle class="light-halo" r="9" />
+            <circle class="light-core" r="1.65" />
+            <animateMotion
+              class="light-motion"
+              begin="indefinite"
+              calcMode="linear"
+              fill="freeze"
+              keyTimes="0;1"
+            >
+              <mpath class="light-motion-path" href="#light-route-top" />
+            </animateMotion>
+            <animate
+              class="light-opacity"
+              attributeName="opacity"
+              begin="indefinite"
+              fill="freeze"
+              keyTimes="0;0.07;0.93;1"
+              values="0;0.9;0.9;0"
+            />
+          </g>
+          <g
+            class="moving-light"
+            opacity="0"
+            data-route-pool="secondary"
+            data-start-route="light-route-bottom"
+            data-start-progress="0.42"
+            data-start-direction="-1"
+            data-start-delay="900"
+            data-speed-min="68"
+            data-speed-max="86"
+            data-pause-min="700"
+            data-pause-max="1800"
+          >
+            <circle class="light-halo" r="9" />
+            <circle class="light-core" r="1.65" />
+            <animateMotion
+              class="light-motion"
+              begin="indefinite"
+              calcMode="linear"
+              fill="freeze"
+              keyTimes="0;1"
+            >
+              <mpath class="light-motion-path" href="#light-route-bottom" />
+            </animateMotion>
+            <animate
+              class="light-opacity"
+              attributeName="opacity"
+              begin="indefinite"
+              fill="freeze"
+              keyTimes="0;0.07;0.93;1"
+              values="0;0.9;0.9;0"
+            />
+          </g>
+        </g>
+      </svg>
+
+      <header class="site-header">
+        <a class="monogram" href="/" aria-label="Julian Pier – Startseite">JP</a>
+        <a class="login-button" href="https://liva.julianpier.de">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M7 10V7a5 5 0 0 1 10 0v3M6 10h12v11H6z" />
+            <path d="M12 14v3" />
+          </svg>
+          <span>Login</span>
+        </a>
+      </header>
+
+      <main class="landing-main">
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-heading">
+            <h1 id="page-title">Julian Pier</h1>
+            <p class="location">Coesfeld, Germany</p>
+          </div>
+
+          <p class="intro">Kontakt, Projekte und Zugang zu LIVA.</p>
+
+          <h2 class="visually-hidden">Kontaktdaten</h2>
+          <address class="contact-list">
+            <a
+              class="contact-item"
+              data-phone-link
+              data-contact-action="phone"
+              href="#phone-placeholder"
+            >
+              <span class="icon-ring" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M7.2 3.6 10 7.8 8.3 10a14.7 14.7 0 0 0 5.7 5.7l2.2-1.7 4.2 2.8-1.1 3a2 2 0 0 1-2.2 1.2C10 19.6 4.4 14 3 6.9a2 2 0 0 1 1.2-2.2z" />
+                </svg>
+              </span>
+              <span class="contact-copy">
+                <span class="contact-label" data-contact-label>Telefon</span>
+                <span class="contact-value" data-phone>+49 160 3789488</span>
+              </span>
+            </a>
+
+            <span class="contact-divider" aria-hidden="true"></span>
+
+            <a
+              class="contact-item"
+              data-contact-action="email"
+              data-contact-value="mail@julianpier.de"
+              href="mailto:mail@julianpier.de"
+            >
+              <span class="icon-ring" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M3 5h18v14H3z" />
+                  <path d="m4 7 8 6 8-6" />
+                </svg>
+              </span>
+              <span class="contact-copy">
+                <span class="contact-label" data-contact-label>E-Mail</span>
+                <span class="contact-value">mail@julianpier.de</span>
+              </span>
+            </a>
+          </address>
+          <p class="visually-hidden" aria-live="polite" data-contact-status></p>
+
+          <nav class="project-card" aria-label="Projekte und Profile">
+            <a class="project-link" href="https://liva.julianpier.de">
+              <span class="project-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5z" />
+                  <path d="M12 14v3" />
+                </svg>
+              </span>
+              <span class="project-copy">
+                <strong>LIVA</strong>
+                <span>Privater Bereich – Login erforderlich.</span>
+              </span>
+              <svg class="arrow" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M14 7l5 5-5 5" />
+              </svg>
+            </a>
+            <a class="project-link" href="https://github.com/julian-pier">
+              <span class="project-icon" aria-hidden="true">
+                <svg class="github-mark" viewBox="0 0 24 24">
+                  <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0 1 12 6.82a9.6 9.6 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.56 4.93.36.31.68.92.68 1.85V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" />
+                </svg>
+              </span>
+              <span class="project-copy">
+                <strong>GitHub</strong>
+                <span>Ausgewählte Repositories.</span>
+              </span>
+              <svg class="arrow" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M14 7l5 5-5 5" />
+              </svg>
+            </a>
+          </nav>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2026 Julian Pier</p>
+        <nav aria-label="Rechtliche Hinweise">
+          <a href="/datenschutz/">Datenschutz</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
