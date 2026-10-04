@@ -2,10 +2,16 @@
 
 Statische Website ohne Build-Schritt oder externe Abhängigkeiten.
 
-## Cloudflare Pages
+## Cloudflare Workers Static Assets
 
-- Root-Verzeichnis: Repository-Root
-- Build-Befehl: leer lassen
-- Build-Ausgabeverzeichnis: `.`
+Die öffentlich deploybaren Dateien liegen ausschließlich in `public/`. Die
+Konfiguration in `wrangler.jsonc` veröffentlicht dieses Verzeichnis als
+Cloudflare Workers Static Assets.
 
-Die Telefonnummer wird zentral am Anfang von `assets/site.js` gepflegt.
+Deployment:
+
+```sh
+npx wrangler deploy
+```
+
+Die Telefonnummer wird zentral am Anfang von `public/assets/site.js` gepflegt.
